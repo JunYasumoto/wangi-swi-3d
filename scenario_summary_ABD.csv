@@ -1,0 +1,9 @@
+scenario,well_set,n_cal_wells,n_params,final_phi,phi_obs_cent,phi_obs_sse,phi_obs_nw,phi_obs_other,rmse_cal,k2_nw,k2_cent,k2_sse,rch_mult,rch_cent,note
+base,17-well,17,0,89.96,42.52,38.71,6.79,1.94,2.210,1.0,1.0,1.0,1.0,1.0,K2=1 baseline (perched wells included)
+C,17-well,17,2,89.96,,,,,,,,,,,global rch+k2 - no improvement
+A4,17-well,17,3,80.46,35.91,35.76,6.86,1.93,2.215,0.3856,0.300,0.5046,1.0,1.0,3-zone K2 (exploration; CENT residual driven by perched ww11/ww12)
+B,17-well,17,4,77.86,32.48,36.50,6.95,1.93,2.179,0.3788,0.300,0.8635,1.875,1.0,+global recharge (exploration)
+D,17-well,17,5,70.78,25.51,36.26,7.09,1.93,2.074,0.3471,0.300,2.000,3.000,3.000,+CENT recharge (DIAGNOSTIC; recharge unphysical 1800/5400 mm/yr - exposes perched structure)
+A-clean,14-well,14,3,42.74,0.485,35.44,6.82,,1.747,2.000,2.000,1.596,1.0,1.0,MAIN RESULT: perched ww10/11/12 excluded; physically-assimilable set; k2_nw/k2_cent weakly constrained (upper bound)
+strict-clean-12,12-well,12,3,28.03,0.504,20.70,6.82,,1.528,2.000,2.000,1.518,1.0,1.0,SENSITIVITY: also exclude perched-suspect ww05/ww08; k2_sse robust (1.60->1.52); main result unchanged
+SSE-split,12-well,12,4,27.78,0.449,20.51,6.82,,,2.000,2.000,coast2.0/inland1.45,1.0,1.0,DIAGNOSTIC: SSE coastal/inland split gives no gain (phi -1%); coastal=boundary-controlled, inland=irreducible heterogeneity

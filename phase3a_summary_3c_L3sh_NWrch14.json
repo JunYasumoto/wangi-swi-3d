@@ -1,0 +1,18 @@
+{
+  "run_tag": "3c_L3sh_NWrch14",
+  "runtime_sec": 400.5,
+  "success": true,
+  "rmse_all": 41.22424246638403,
+  "rmse_no_perched": 2.2053506263281344,
+  "rmse_clean": 2.2053506263281344,
+  "mean_bias_clean": -1.7344679172835356,
+  "n_wells_all": 20,
+  "n_wells_clean": 17,
+  "ghb_l1_mult": 1.0,
+  "ghb_l2_mult": 1.0,
+  "ghb_l3_mult": 1.0,
+  "skip_l1_ghb": false,
+  "skip_l3_ghb": false,
+  "use_density_ghb": true,
+  "botm_l3": -200.0
+}

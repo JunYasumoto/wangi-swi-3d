@@ -1,0 +1,57 @@
+# ============================================================
+#  Wangi-Wangi 3D SWI / MODFLOW + PEST  — .gitignore
+#  方針: コード・PEST制御・入力npy・成果(図/レポート/csv)は追跡。
+#        再生成可能な大容量出力・実行体・キャッシュ・一時ログは除外。
+# ============================================================
+
+# --- 大容量・再生成可能な MODFLOW ワークスペース ---
+phase3b_tidal_*/
+phase3a_ss/
+phase3a_ss_*/
+
+# --- MODFLOW バイナリ出力（再生成可能）---
+*.cbc
+*.zta
+*.grb
+*.hds
+!warmstart_base.hds          # warm-start 初期条件だけは追跡
+
+# --- 実行体（別管理: Dropbox / 公式配布）---
+*.exe
+
+# --- Python キャッシュ ---
+__pycache__/
+*.pyc
+*.pyo
+
+# --- 一時ログ・run 生成物 ---
+_*.log
+_*.txt
+_*.err
+_*.meta
+*.output
+*.failed_run_backup
+
+# --- PEST 実行時の一時ファイル（制御ファイル本体は追跡）---
+pest.rec
+pest.rei*
+pest.jco
+pest.jcb
+pest.upg.csv
+pest.svd
+pest.log
+pest.iobj
+pest.isen
+pest.ipar
+pest.rid
+pest.sen
+run.info
+
+# --- エディタ / OS ---
+.DS_Store
+Thumbs.db
+.claude/
+
+# --- 編集ツールの一時ファイル ---
+*.tmp
+*.tmp.*

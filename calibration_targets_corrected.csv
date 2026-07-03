@@ -1,0 +1,21 @@
+id,aquifer_class,terrain_elev_m,obs_truth_ppp,obs_used,use_for_calibration,weight,target_source,utm_x,utm_y,obs_pest_baseline
+ww01,Upper perched (pristine),125.067,124.617,124.617,False,0.0,wells_truth_PPP_2026-06-03,564986.4173,9413300.9681,8.0606
+ww02,"Lower main (coastal, no chem)",4.8,2.725,2.725,True,1.0,wells_truth_PPP_2026-06-03,557814.4203,9418644.3284,4.6985
+ww03,"Lower main (coastal, no chem)",4.135,2.205,2.205,True,1.0,wells_truth_PPP_2026-06-03,558307.4042,9419387.1855,4.143
+ww04,Lower main (Na-Cl mixed),8.707,2.418,2.418,True,1.0,WW4_HOBO_8mo_mean_+2.418,559298.124,9412207.8269,4.1551
+ww05,Lower main (Na-Cl mixed),3.602,3.592,3.592,True,1.0,wells_truth_PPP_2026-06-03,563767.957,9405640.5327,4.6552
+ww06,Lower main (Na-Cl mixed),6.014,4.074,4.074,True,1.0,wells_truth_PPP_2026-06-03,563817.3096,9405669.202,4.0842
+ww07,"Lower main (coastal, no chem)",12.7,4.155,4.155,True,1.0,wells_truth_PPP_2026-06-03,564385.4623,9408941.6945,3.957
+ww08,Lower main (Na-Cl mixed),4.627,4.627,4.627,True,1.0,wells_truth_PPP_2026-06-03,570799.5492,9411689.3764,0.2091
+ww09,Lower main (Na-Cl mixed),5.201,2.981,2.981,True,1.0,wells_truth_PPP_2026-06-03,565502.3752,9405433.1262,3.1208
+ww10,Lower main (Na-Cl mixed),15.428,15.428,15.428,False,0.0,wells_truth_PPP_2026-06-03,569395.435,9417409.6986,13.0475
+ww11,"Lower main (coastal, no chem)",7.243,6.683,6.683,False,0.0,wells_truth_PPP_2026-06-03,559276.2972,9412158.3711,3.8788
+ww12,"Lower main (coastal, no chem)",8.06,7.535,7.535,False,0.0,wells_truth_PPP_2026-06-03,559147.5323,9411992.1363,4.4977
+ww13,Lower main (Na-Cl mixed),6.481,2.411,2.411,True,1.0,wells_truth_PPP_2026-06-03,562380.22,9408683.8469,4.016
+ww14,Upper perched (pristine),102.789,81.149,81.149,False,0.0,wells_truth_PPP_2026-06-03,564930.2754,9412205.2199,83.2317
+ww15,Lower main (Na-Cl mixed),11.739,7.859,7.859,True,1.0,wells_truth_PPP_2026-06-03,568699.0338,9413930.6301,4.8719
+ww16,Upper perched (pristine),168.076,166.256,166.256,False,0.0,wells_truth_PPP_2026-06-03,561965.6536,9414998.8725,170.8671
+ww17,"Lower main (coastal, no chem)",4.226,2.406,2.406,True,1.0,wells_truth_PPP_2026-06-03,564485.9103,9404926.0817,4.4891
+ww18,"Lower main (coastal, no chem)",4.418,2.409,2.409,True,1.0,wells_truth_PPP_2026-06-03,557778.8899,9418653.5662,4.4915
+ww19,"Lower main (coastal, no chem)",1.821,-0.434,-0.434,True,1.0,wells_truth_PPP_2026-06-03,557801.3356,9416473.7135,3.384
+ww20,"Lower main (coastal, no chem)",10.331,0.946,0.946,True,1.0,wells_truth_PPP_2026-06-03,557783.5959,9417282.7996,3.4162

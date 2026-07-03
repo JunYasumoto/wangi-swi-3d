@@ -1,0 +1,10 @@
+step,value_m,sigma_m,note
+Sensor elev (sum),0.5671,0.0394,WELL_TOP + INST - FS - STAIRS - ANCHOR - CORD
+Pre cord-break mean water col,1.8122,0.0044,n=15 days
+Post re-tie mean water col,1.8107,0.0012,n=209 days
+Pre cord-break GW elev,2.3793,0.0396,best snapshot
+Post re-tie GW elev,2.3778,0.0394,long-term anchor
+Field survey Interp A (PEST ground=10),2.6150,0.5000,ground elev DEM ±0.5m
+Field survey Interp B (PPP top=8.7071),1.3221,0.0400,PPP top ±0.03 m
+HOBO at field-survey time (Dec 12 15:57),2.3968,0.0394,instantaneous
+PEST calibration_targets obs_head,4.1550,0.5000,calibration data

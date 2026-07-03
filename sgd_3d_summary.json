@@ -1,0 +1,21 @@
+{
+  "runtime_phase3b_sec": 2263,
+  "nlay": 3,
+  "ncell_total": 1877616,
+  "ncoast_layer_cells": 6506,
+  "n_coast_pixels": 3253,
+  "raw_steady_out_m3_d": 4074380.307172667,
+  "raw_tidal_out_m3_d": 4149521.648440857,
+  "raw_tidal_in_m3_d": 3574109.700351109,
+  "true_steady_sgd_m3_d": 331891.9756753235,
+  "true_tidal_mean_sgd_m3_d": 584885.2287178494,
+  "mass_balance_RCH_m3_d": 254620.12320328542,
+  "jpgu_3d_freshwater_sgd_m3_d": 306000.0,
+  "eps_zone_steady_m3_d": 17067.195493087173,
+  "eps_zone_tidal_mean_m3_d": 34502.66692696033,
+  "eps_zone_per_m_coast_steady": 1.4841039559206237,
+  "eps_zone_per_m_coast_tidal": 3.0002319066922025,
+  "eps_zone_coast_length_m": 11500,
+  "kantamare_l2_tidal_eff_pct": 20.3,
+  "kantamare_obs_tidal_eff_pct": 18.0
+}

@@ -1,0 +1,18 @@
+{
+  "run_tag": "sse200",
+  "runtime_sec": 17.6,
+  "success": true,
+  "rmse_all": 41.46803262843994,
+  "rmse_no_perched": 2.3533741366118384,
+  "rmse_clean": 2.3533741366118384,
+  "mean_bias_clean": -1.955058281609954,
+  "n_wells_all": 20,
+  "n_wells_clean": 17,
+  "ghb_l1_mult": 1.0,
+  "ghb_l2_mult": 1.0,
+  "ghb_l3_mult": 1.0,
+  "skip_l1_ghb": false,
+  "skip_l3_ghb": false,
+  "use_density_ghb": true,
+  "botm_l3": -200.0
+}

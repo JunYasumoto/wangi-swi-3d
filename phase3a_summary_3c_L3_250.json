@@ -1,0 +1,18 @@
+{
+  "run_tag": "3c_L3_250",
+  "runtime_sec": 750.2,
+  "success": true,
+  "rmse_all": 41.150566744783774,
+  "rmse_no_perched": 2.1320581201648743,
+  "rmse_clean": 2.1320581201648743,
+  "mean_bias_clean": -1.5691429039780065,
+  "n_wells_all": 20,
+  "n_wells_clean": 17,
+  "ghb_l1_mult": 1.0,
+  "ghb_l2_mult": 1.0,
+  "ghb_l3_mult": 1.0,
+  "skip_l1_ghb": false,
+  "skip_l3_ghb": false,
+  "use_density_ghb": true,
+  "botm_l3": -250.0
+}

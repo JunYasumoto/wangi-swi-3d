@@ -1,0 +1,6 @@
+metric,value,uncertainty,note
+sensor_elev_m_MSL,0.6071,0.0390,user-corrected from field-survey records
+GW_mean_pre_break_m_MSL,2.4193,0.0393,"Dec 14-28 2024, n=692"
+GW_mean_post_retie_m_MSL,2.4178,0.0390,"Jan 16 - Aug 13 2025, n=10054, THIS IS THE TRUTH"
+PEST_obs_head_inflation_m,1.7372,,positive = PEST too high
+P3c_L3shallow_bias_m,0.3992,,"sim - truth, positive = sim too high"

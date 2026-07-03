@@ -1,0 +1,18 @@
+{
+  "run_tag": "nw101",
+  "runtime_sec": 13.6,
+  "success": true,
+  "rmse_all": 41.23862697357297,
+  "rmse_no_perched": 2.2103209412286087,
+  "rmse_clean": 2.2103209412286087,
+  "mean_bias_clean": -1.7428470113900898,
+  "n_wells_all": 20,
+  "n_wells_clean": 17,
+  "ghb_l1_mult": 1.0,
+  "ghb_l2_mult": 1.0,
+  "ghb_l3_mult": 1.0,
+  "skip_l1_ghb": false,
+  "skip_l3_ghb": false,
+  "use_density_ghb": true,
+  "botm_l3": -200.0
+}
