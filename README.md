@@ -64,11 +64,20 @@ pip install flopy pandas matplotlib scipy pyemu
 
 MODFLOW / PEST の実行体はサイズ・ライセンスの都合で **git には含めていない**。以下を別途取得し、リポジトリの親 `scratch/` に配置する。
 
-| 実行体 | 期待パス | 入手先 |
-|---|---|---|
-| `mf6.exe`（SWI+潮汐 特殊ビルド, 46 MB）| `../wangi_swi/mf6.6.0-SWI-Tides/mf6.exe` | 本リポジトリの **Releases**（または Dropbox）|
-| `pestpp-glm.exe`（v5.2.22, 2 MB）| `../wangi_jpgu2026/pestpp-glm.exe` | 本リポジトリの Releases、または PEST++ 公式配布 |
-| `wangi.hds`（任意, 予備 IC）| `../wangi_jpgu2026/wangi.hds` | 任意（`warmstart_base.hds` があれば不要）|
+Release [`executables-2026-07`](https://github.com/JunYasumoto/wangi-swi-3d/releases/tag/executables-2026-07) の
+`wangi-swi-3d-executables.zip`（7.6 MB, sha256 `f8fc1a7e…`）を取得し、**リポジトリの親ディレクトリ `scratch/` に展開**する。
+展開すると `wangi_swi/` と `wangi_jpgu2026/` が並ぶ（下記の期待パスが再現される）。
+
+| 実行体 | 期待パス |
+|---|---|
+| `mf6.exe`（SWI+潮汐 特殊ビルド, 46 MB）| `../wangi_swi/mf6.6.0-SWI-Tides/mf6.exe` |
+| `pestpp-glm.exe`（v5.2.22, 2 MB）| `../wangi_jpgu2026/pestpp-glm.exe` |
+| `wangi.hds`（任意, 予備 IC）| `../wangi_jpgu2026/wangi.hds`（`warmstart_base.hds` があれば不要）|
+
+Private リポジトリのため、取得は **ブラウザ（GitHub にログインして Releases からDL）** か **gh CLI**:
+```bash
+gh release download executables-2026-07 -R JunYasumoto/wangi-swi-3d
+```
 
 > ⚠️ `mf6.exe` は公式リリースに無い **SWI+潮汐 対応の特殊ビルド**。公式の `get-modflow` では入手できない。
 

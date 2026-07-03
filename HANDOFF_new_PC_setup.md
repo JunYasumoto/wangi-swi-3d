@@ -35,8 +35,11 @@
 - 感度版: `pest_strict12.pst`
 
 ### (e) 実行体（コンパイル済バイナリ、git には載せない）
+GitHub Release [`executables-2026-07`](https://github.com/JunYasumoto/wangi-swi-3d/releases/tag/executables-2026-07) の
+`wangi-swi-3d-executables.zip`（7.6 MB, sha256 `f8fc1a7e…`）にまとめてある。**親ディレクトリ `scratch/` に展開**すると下記が再現される。
+Private のため取得はブラウザ（ログインして Releases からDL）か `gh release download executables-2026-07 -R JunYasumoto/wangi-swi-3d`。
 - **MODFLOW（SWI+潮汐 特殊ビルド）**: `../wangi_swi/mf6.6.0-SWI-Tides/mf6.exe`
-  - ※ 公式 `get-modflow` では入手不可。既存バイナリを Dropbox 等で運ぶか、同ソースから再ビルドが必要。
+  - ※ 公式 `get-modflow` では入手不可の特殊ビルド。
 - **PEST++**: `../wangi_jpgu2026/pestpp-glm.exe`（v5.2.22）。公式配布の pestpp-glm でも可。
 
 ### (f) 成果物（記録として）
